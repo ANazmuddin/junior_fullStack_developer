@@ -15,7 +15,7 @@ Sistem ini mencakup dua modul utama sesuai spesifikasi soal: **Manajemen Inventa
   * Stok tidak boleh bernilai negatif.
   * Sistem otomatis menolak transaksi jika stok habis (0).
   * Menggunakan `DB Transaction` dan `lockForUpdate` untuk mencegah *race condition* (data bentrok saat akses bersamaan).
-* **✨ Fitur Tambahan (Nilai Plus):**
+* **✨ Fitur Tambahan:**
   * **Pencarian Real-time:** Mencari nama barang tanpa reload halaman.
   * **Pagination:** Menampilkan data per 10 baris agar aplikasi tetap ringan.
   * **Status Visual:** Indikator warna pada stok (Hijau = Aman, Merah = Habis).
