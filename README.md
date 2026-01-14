@@ -48,8 +48,8 @@ Ikuti langkah-langkah berikut untuk menjalankan proyek di komputer lokal Anda:
 
 ### 1. Clone Repositori
 ```bash
-git clone [https://github.com/USERNAME_ANDA/NAMA_REPO.git](https://github.com/USERNAME_ANDA/NAMA_REPO.git)
-cd NAMA_REPO
+git clone https://github.com/ANazmuddin/junior_fullStack_developer.git
+cd junior_fullStack_developer
 
 ```
 
@@ -142,7 +142,3 @@ Berikut adalah link video demo simulasi penggunaan aplikasi:
 
 * Aplikasi dikembangkan di lingkungan **Linux (Manjaro)** namun kompatibel sepenuhnya dengan Windows dan macOS.
 * Pastikan ekstensi PHP `pdo_mysql` dan `gd` sudah aktif di komputer Anda.
-
-```
-
-```
