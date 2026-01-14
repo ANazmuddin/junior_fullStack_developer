@@ -18,12 +18,11 @@ class DatabaseSeeder extends Seeder
     // Panggil RoleSeeder
     $this->call(RoleSeeder::class);
 
-    // (Opsional) Kita buat 1 User Admin sekalian untuk tes login nanti
     \App\Models\User::factory()->create([
         'name' => 'Admin Test',
         'email' => 'admin@example.com',
-        'password' => bcrypt('password'), // passwordnya 'password'
-        'role_id' => 1, // Asumsi ID 1 adalah Admin
+        'password' => bcrypt('password'),
+        'role_id' => 1,
     ]);
 }
 }

@@ -50,7 +50,6 @@ class ProductController extends Controller
         ]);
 
         // 3. Kembali ke halaman sebelumnya dengan pesan sukses
-        // Inertia akan menangani flash message ini di frontend nanti
         return redirect()->back()->with('success', 'Produk berhasil ditambahkan!');
     }
 
@@ -60,8 +59,6 @@ class ProductController extends Controller
      */
     public function sell($id)
     {
-        // Gunakan DB Transaction agar data aman (Atomicity)
-        // Jika ada error di tengah jalan, perubahan dibatalkan otomatis.
         return DB::transaction(function () use ($id) {
             
             // Lock baris data ini agar tidak bentrok jika ada 2 user klik bersamaan (Pessimistic Locking)

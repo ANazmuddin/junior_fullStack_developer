@@ -134,7 +134,7 @@ Saat Anda menjalankan perintah `php artisan migrate:fresh --seed`, sistem secara
 ## 🎥 Video Demo
 
 Berikut adalah link video demo simulasi penggunaan aplikasi:
-**[TEMPELKAN LINK VIDEO GOOGLE DRIVE / YOUTUBE ANDA DISINI]**
+https://youtu.be/euL7FM27A5Y?si=5UD9YWWSD94x90xU
 
 ---
 

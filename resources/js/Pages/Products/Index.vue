@@ -1,8 +1,8 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
-import { Head, useForm, router, usePage, Link } from '@inertiajs/vue3'; // Tambah Link
+import { Head, useForm, router, usePage, Link } from '@inertiajs/vue3';
 import { computed, ref, watch } from 'vue';
-import Swal from 'sweetalert2'; // Kita pakai library alert cantik (nanti diinstall)
+import Swal from 'sweetalert2'; 
 
 const props = defineProps({
     products: Object, // Ubah Array jadi Object karena ada data pagination
